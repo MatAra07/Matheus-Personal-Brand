@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-on-error: #690005;
+  --color-surface-container-lowest: #0e0e0e;
+  --color-on-primary-fixed: #001356;
+  --color-secondary-fixed: #d4e4fa;
+  --color-surface-dim: #131313;
+  --color-on-error-container: #ffdad6;
+  --color-on-primary-container: #001e78;
+  --color-on-tertiary-container: #002e3a;
+  --color-outline-variant: #414755;
+  --color-surface-container-high: #2a2a2a;
+  --color-surface-container-highest: #353534;
+  --color-primary-fixed-dim: #b8c3ff;
+  --color-on-tertiary-fixed: #001f27;
+  --color-tertiary-fixed-dim: #3cd7ff;
+  --color-inverse-surface: #e5e2e1;
+  --color-primary: #b8c3ff;
+  --color-on-background: #e5e2e1;
+  --color-tertiary-container: #009ebe;
+  --color-secondary: #b9c8de;
+  --color-surface-variant: #353534;
+  --color-secondary-container: #39485a;
+  --color-on-surface: #e5e2e1;
+  --color-on-secondary-container: #a7b6cc;
+  --color-on-primary-fixed-variant: #0035be;
+  --color-tertiary-fixed: #b4ebff;
+  --color-tertiary: #3cd7ff;
+  --color-secondary-fixed-dim: #b9c8de;
+  --color-outline: #8b90a0;
+  --color-primary-fixed: #dde1ff;
+  --color-on-surface-variant: #c1c6d7;
+  --color-surface-container-low: #1c1b1b;
+  --color-error-container: #93000a;
+  --color-surface-bright: #3a3939;
+  --color-primary-container: #6d88ff;
+  --color-on-primary: #002388;
+  --color-surface-tint: #b8c3ff;
+  --color-surface: #131313;
+  --color-inverse-on-surface: #313030;
+  --color-surface-container: #201f1f;
+  --color-on-secondary: #233143;
+  --color-error: #ffb4ab;
+  --color-on-tertiary: #003642;
+  --color-on-tertiary-fixed-variant: #004e5f;
+  --color-inverse-primary: #124af0;
+  --color-on-secondary-fixed-variant: #39485a;
+  --color-background: #131313;
+  --color-on-secondary-fixed: #0d1c2d;
+
+  --font-headline: "Space Grotesk", sans-serif;
+  --font-body: "Inter", sans-serif;
+  --font-label: "Inter", sans-serif;
+
+  --radius-DEFAULT: 0.125rem;
+  --radius-lg: 0.25rem;
+  --radius-xl: 0.5rem;
+  --radius-full: 0.75rem;
+}
+
+body {
+    background-color: var(--color-background);
+    color: var(--color-on-surface);
+}
+
+.material-symbols-outlined {
+    font-family: 'Material Symbols Outlined';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-feature-settings: 'liga';
+    -webkit-font-smoothing: antialiased;
+    font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+    vertical-align: middle;
+}
+
+.perspective-rail {
+    width: 1px;
+    background: linear-gradient(to bottom, transparent, rgba(65, 71, 85, 0.2) 10%, rgba(65, 71, 85, 0.2) 90%, transparent);
+}
+.perspective-rail-vertical {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+}
